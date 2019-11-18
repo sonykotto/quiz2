@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/keterangan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Kedua"
+        />
+    
+    <EditText 
+        android:id="@+id/input21"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Pertama"
+        android:layout_below="@+id/keterangan1"
+        />
+    
+    <EditText 
+        android:id="@+id/input22"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Kedua"
+        android:layout_below="@+id/input21"
+        />
+    
+    <EditText 
+        android:id="@+id/input23"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Ketiga"
+        android:layout_below="@+id/input22"
+        />
+
+    <Button
+        android:id="@+id/jumlah2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input23"
+        android:text="Jumlah"
+         />
+    
+    <TextView 
+        android:id="@+id/hasil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini Merupakan Hasil"
+        android:layout_below="@+id/jumlah2"
+        />
+
+</RelativeLayout>

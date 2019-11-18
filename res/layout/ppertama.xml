@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+     <TextView 
+        android:id="@+id/keterangan1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz Pertama"
+        />
+    
+    <EditText 
+        android:id="@+id/input11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Pertama"
+        android:layout_below="@+id/keterangan1"
+        />
+    
+    <EditText 
+        android:id="@+id/input12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukan Input Kedua"
+        android:layout_below="@+id/input11"
+        />
+    
+    <Button 
+        android:id="@+id/jumlah1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Jumlah"
+        android:layout_below="@+id/input12"
+        />
+    
+    <TextView 
+        android:id="@+id/hasil1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ini Merupakan Hasil"
+        android:layout_below="@+id/jumlah1"
+        />
+
+</RelativeLayout>
